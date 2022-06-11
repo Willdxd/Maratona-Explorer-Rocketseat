@@ -1,0 +1,75 @@
+*{
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(47, 43, 72);
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1808&q=80);
+  }
+
+  img{
+    margin-top: 40px;
+    width: 65%;
+  }
+
+  #container{
+    width: 50%;
+    max-width: 400px;
+    margin-inline: auto;
+  }
+
+  h1{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: white;
+  }
+
+  p{
+    margin-bottom: 20px;
+    font-size: medium;
+    font-style: oblique;
+    color: lightgoldenrodyellow;
+  }
+
+  input,button{
+width: 100%;
+padding: 10px;
+border-radius: 8px;
+  }
+
+  input{
+    margin-bottom: 10px;
+    font-size: medium;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: grey;
+  }
+
+  button{
+    font-size: medium;
+    font-style: oblique;
+    background-color: rgb(47, 43, 72);
+    color: white;
+    cursor: pointer;
+    border-color: goldenrod;
+      }
+
+      button :focus{
+        filter: brightness(1.2);
+      }
+
+      #resposta{
+        margin-top: 12px;
+        color: white;
+        transition: opacity 1s;
+      }
+
+      #resposta div{
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 10px;
+      }
