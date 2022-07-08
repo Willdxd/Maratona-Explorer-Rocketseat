@@ -7,7 +7,7 @@ body{
   background-color: rgb(47, 43, 72);
   text-align: center;
   font-family: sans-serif;
-  background-image: url(https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1808&q=80);
+  background-image: url(https://images.unsplash.com/photo-1606568156390-8f4edb5ef31f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   }
 
   img{
@@ -16,9 +16,10 @@ body{
   }
 
   #container{
-    width: 50%;
-    max-width: 400px;
-    margin-inline: auto;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+    min-width: 300px;
   }
 
   h1{
