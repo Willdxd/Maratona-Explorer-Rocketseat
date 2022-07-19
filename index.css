@@ -11,8 +11,9 @@ body{
   }
 
   img{
-    margin-top: 40px;
-    width: 65%;
+    margin-top: 20px;
+    width: 35%;
+    align: center;
   }
 
   #container{
@@ -36,9 +37,9 @@ body{
   }
 
   input,button{
-width: 100%;
-padding: 10px;
-border-radius: 8px;
+    width: 100%;
+   padding: 10px; 
+   border-radius: 8px;
   }
 
   input{
@@ -53,10 +54,11 @@ border-radius: 8px;
   button{
     font-size: medium;
     font-style: oblique;
-    background-color: rgb(47, 43, 72);
+    background-color: transparent;
     color: white;
     cursor: pointer;
-    border-color: goldenrod;
+    border-color: #3F5EFB #3f5efb #FC466B #fc466b;
+     }
       }
 
       button :focus{
@@ -73,4 +75,11 @@ border-radius: 8px;
         font-size: 16px;
         font-weight: normal;
         margin-bottom: 10px;
+      }
+
+      footer{
+        color: silver;
+        font-family: sans-serif;
+        margin-top: 150px;
+        font-size: x-small;
       }
